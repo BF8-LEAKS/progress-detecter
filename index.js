@@ -7,11 +7,12 @@ async function updateTest() {
         const db = fs.readFileSync('db.json');
         const dbJson = JSON.parse(db);
         let res = await axios.get('https://bf8-leaks.github.io/BFN-API/SeasonProgress.json');
-        let progress = res.data.SeasonProgress;
+        let SeasonProgress = res.data.data.SeasonProgress;
         if(dbJson.find(x => x.name === SeasonProgress.dayleft)) return
         let newd = {
-            name:  SeasonProgress.dayleft, 
+            dayleft:  `${SeasonProgress.dayleft}`, 
             image : SeasonProgress.image,
+            season : [SeasonProgress.season],
         }
         dbJson.push(newd);
         fs.writeFileSync('progress.json', JSON.stringify(dbJson, null, 2));
