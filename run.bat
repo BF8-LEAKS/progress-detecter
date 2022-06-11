@@ -1,4 +1,4 @@
 @echo off
-title SeasonProgress made by: Artlfmj and Tim and BF8
+title SeasonProgress made by: BF8
 node index.js
 PAUSE

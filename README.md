@@ -18,5 +18,5 @@ If you got any errors or have problems, feel free to DM BF8 on Discord:
 BF8#1858
 
 # License
-This Bot is made by [Artlfmj](https://github.com/Artlfmj) and [Tim](https://twitter.com/TimFNLeaks) and [BF8](https://twitter.com/__BF8).
-If you want to use this code in your project, make sure to credit us!
+This Bot is made by [BF8](https://twitter.com/__BF8).
+If you want to use this code in your project, make sure to credit me!
